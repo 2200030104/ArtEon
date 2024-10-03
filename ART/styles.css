@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* Font family */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+/* Top header area styles */
+.top-header-area {
+    background-color: #030637; /* Set header background color to the first color */
+    padding: 20px 0;
+}
+
+/* Site logo styles */
+.site-logo img {
+    max-width: 150px; /* Maximum width for the logo */
+}
+
+/* Main menu styles */
+.main-menu {
+    display: flex; /* Use flexbox for the menu layout */
+    justify-content: center; /* Center the menu items */
+    margin-top: 10px;
+    background-color: #030637; /* Use the first color for navbar background */
+    padding: 10px 0; /* Padding for the navbar */
+}
+
+/* Navbar list styles */
+.main-menu ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar items */
+.main-menu ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Margin between items */
+}
+
+/* Navbar links */
+.main-menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* White text color */
+    font-weight: 600; /* Font weight */
+    padding: 5px 10px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for navbar links */
+.main-menu a:hover {
+    background-color: #3C0753; /* Darker color on hover */
+    color: #ffffff; /* Keep text white on hover */
+}
+
+/* Active link styling */
+.current-list-item a {
+    font-weight: bold; /* Make active link bold */
+    background-color: #720455; /* Background for active link */
+    color: #ffffff; /* Text color for active link */
+}
+
+/* Hero area styles */
+.hero-area {
+    background-image: url('Images/FotoJet.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the area */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    color: white; /* Text color in the hero area */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Artica title styles */
+.artica-title {
+    font-family: 'Times New Roman', serif; /* Set font to Times New Roman */
+    text-align: center; /* Center title */
+    color: #910A67; /* Set title color */
+    margin: 0; /* Remove margin */
+    font-size: 10em; /* Increase font size */
+    text-decoration: underline; /* Add underline to the title */
+    display: inline-block; /* Allow padding and background */
+    padding: 10px 20px; /* Add padding for a button-like appearance */
+     /* Light background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the title acting as a button */
+.artica-title:hover {
+    background-color: #3C0753; /* Darker background on hover */
+}
+
+
+/* Footer area styles */
+.footer-area {
+    background-color: #030637; /* Set footer background color to the same as the header */
+    color: white; /* White text color */
+    padding: 40px 0; /* Padding for footer */
+}
+
+.footer-box {
+    margin-bottom: 20px; /* Space between footer boxes */
+}
+
+.footer-box h2 {
+    margin-bottom: 15px; /* Space below footer box titles */
+}
+
+.footer-box p, .footer-box ul {
+    font-size: 14px; /* Font size for footer text */
+}
